@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css_add %}
+<link rel="stylesheet" href="{% static 'css/rekruto.css' %}">
+{% endblock %}
+{% block title %} {{name|title}} {% endblock %}
+{% block content %}
+    <div class="main">
+        <div class="content">
+             <h1>
+                 Hello {{name|title}}! {{message}}!
+             </h1>
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}
+    <div class="footer">
+        <div class="text">
+                 <p>Номер телефона: +79198807420</p>
+            <hr>
+                 <p>Телеграмм: @Nektarin4ik</p>
+            <hr>
+                 <p>Вконтакте: https://vk.com/0nektarin4ik0</p>
+
+        </div>
+    </div>
+{% endblock %}

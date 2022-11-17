@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .main {
     width: 100vw;
     height: 90vh;
@@ -28,6 +32,6 @@
     flex-direction: row;
     width: 90%;
     font-family: Sans-Serif;
-
+    margin-left: 10px;
 }
 
